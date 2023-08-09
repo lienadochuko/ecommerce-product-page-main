@@ -1,0 +1,31 @@
+@media only screen and (max-width: 540px) {
+  .App {
+    width: 100vw;
+    height: 100vh;
+    background-color:  hsl(0, 0%, 100%);
+  }
+
+  .Navbar{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;  
+    background-color: #000;  
+  }
+
+  .imgMenu {
+    width: 10%;
+    height: 80%;
+  }
+
+  .imglogo {
+    width: 60%;
+    height: 80%;
+  }
+
+  .imgavatar {
+    width: 25px;
+    height: 25px;
+  }
+}
