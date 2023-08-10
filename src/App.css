@@ -9,23 +9,52 @@
     height: 10%;
     width: 100%;
     position: fixed;
+    top:0%;
     display: flex;
+    align-items: center; 
+    justify-content: space-between;
     flex-direction: row;  
-    background-color: #000;  
+    z-index: 9999;
+    /* background-color: #000;  */
   }
 
   .imgMenu {
-    width: 10%;
-    height: 80%;
+    width: 6%;
+    height: 25%;
+    margin-left: 6%;
+    /* background-color: #fff; */
+  }
+
+  .logoHold {
+    width: 50%;
+    height: 40%; 
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    margin-top: -1%;
+    /* background-color: #fff;   */
   }
 
   .imglogo {
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    /* height: 83%; */
+  }
+
+  .imgcart {
+    width: 7%;
+    height: 33%;
   }
 
   .imgavatar {
     width: 25px;
     height: 25px;
+    margin-right: 6%;
   }
+
+  .cartImage {
+    position: relative;
+    margin-top: 12%;
+    /* background-image: url('../src/images/'); */
+  }
+
 }
