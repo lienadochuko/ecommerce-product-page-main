@@ -5,6 +5,12 @@
     background-color:  hsl(0, 0%, 100%);
   }
 
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
   .Navbar{
     height: 10%;
     width: 100%;
@@ -14,8 +20,55 @@
     align-items: center; 
     justify-content: space-between;
     flex-direction: row;  
-    z-index: 9999;
+    background-color: #fff;
+    z-index: 9998;
     /* background-color: #000;  */
+  }
+  .bar {
+    width: 100%;  
+    height: 100vh;  
+    position: absolute; 
+    z-index: 9999;
+  }
+
+  .sideBar {
+    width: 70%;  
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;  
+    background-color: #fff;
+    z-index: 9999;
+  }
+
+  .darkside {
+    width: 30%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 9999;
+    background-color: #000;
+    opacity: 0.7;
+  }
+
+  .imgClose{
+    width: 15px;
+    height: 15px;
+    margin-left: 10%;
+    margin-top: 10%;  
+  }
+  
+  .sidebarItems{
+    margin-left: 10%;  
+    height: 40%;  
+    margin-top: 20%;
+  }
+
+  .item {
+    font-weight: 700;
+    color: hsl(220, 13%, 13%);
+    margin-top: 10%;
   }
 
   .imgMenu {
@@ -52,9 +105,72 @@
   }
 
   .cartImage {
+    width: 100%;
+    height: 40%;
     position: relative;
-    margin-top: 12%;
+    padding-top: 20%;
     /* background-image: url('../src/images/'); */
+  }
+
+  .backward {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 52%;
+    left: 0;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .forward {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 52%;
+    right: 0;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .product {
+    width: 100%;
+    height: 100%;
+  } 
+
+  .bodyWrapper {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+  }
+
+  .company {
+    width: 90%;
+    height: fit-content;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+    letter-spacing: 1px;
+    background-color: rgb(15, 43, 43);
+  }
+
+  .edition {
+    width: 90%;
+    height: fit-content;
+    font-size: 29px;
+    font-weight: 700;
+    color: hsl(220, 13%, 13%);
+    letter-spacing: 1px;
+    background-color: rgb(10, 22, 22);
   }
 
 }
