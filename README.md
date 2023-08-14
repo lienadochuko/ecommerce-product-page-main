@@ -33,7 +33,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screencapture-ecommerce-product-page-main-sepia-vercel-app-2023-08-14-01_35_04](https://github.com/lienadochuko/ecommerce-product-page-main/assets/66309753/ed8aeb10-a915-481b-825f-194c75a50d18)
+
+![screencapture-ecommerce-product-page-main-sepia-vercel-app-2023-08-14-01_35_49](https://github.com/lienadochuko/ecommerce-product-page-main/assets/66309753/4e34740f-e71e-44a8-baa1-38f104b99b17)
+
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
