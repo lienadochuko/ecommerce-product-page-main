@@ -4,12 +4,18 @@ import { useState, useEffect } from "react";
 // import ReactDOM from "react-dom/client";
 
 const Productamount = () => {
+    
+// eslint-disable-next-line no-unused-vars
     const [ProductTotal, setProductTotal] = useState(0);
+    
+// eslint-disable-next-line no-unused-vars
     const [setter, setSetter] = useState(true);
     useEffect(() => {
         localStorage.setItem('ProductTotal', JSON.stringify(ProductTotal));
         setSetter(true);
-      }, [setter]);
+        
+// eslint-disable-next-line no-unused-vars, react-hooks/exhaustive-deps
+      }, []);
     // eslint-disable-next-line no-unused-vars
     const [disable, setdisable] = useState(false);
     // eslint-disable-next-line no-unused-vars

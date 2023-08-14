@@ -37,6 +37,18 @@ const Subtract = () => {
             // console.log(disableSub);
         }
 }
+const item1 = () => {    
+    setAdd(0);
+}
+const item2 = () => {    
+    setAdd(1);
+}
+const item3 = () => {    
+    setAdd(2);
+}
+const item4 = () => {    
+    setAdd(3);
+}
 const imageList = [
     {src:logo},
     {src:logo1},
@@ -55,6 +67,12 @@ const imageList = [
         <span className='forward' style={{opacity:add === 3 ? 0.3 : 1 }} onClick={add === 3 ?  emptyButton : addition} >
         <img src={next} alt='forward' />
         </span>
+        <div className='containerProductScroll'>
+            <span className='productScrollHold' style={{borderColor:add === 0? 'hsl(26, 100%, 55%)' : ''}}><img src={`${imageList[0].src}`} alt='imagine' className='productScroll' onClick={item1} style={{opacity:add === 0 ? 0.3 : 1,}}/></span>
+            <span className='productScrollHold' style={{borderColor:add === 1? 'hsl(26, 100%, 55%)' : ''}}><img src={`${imageList[1].src}`} alt='imagine' className='productScroll' onClick={item2} style={{opacity:add === 1 ? 0.3 : 1,}}/></span>
+            <span className='productScrollHold' style={{borderColor:add === 2? 'hsl(26, 100%, 55%)' : ''}}><img src={`${imageList[2].src}`} alt='imagine' className='productScroll' onClick={item3} style={{opacity:add === 2 ? 0.3 : 1,}}/></span>
+            <span className='productScrollHold' style={{borderColor:add === 3? 'hsl(26, 100%, 55%)' : ''}}><img src={`${imageList[3].src}`} alt='imagine' className='productScroll' onClick={item4} style={{opacity:add === 3 ? 0.3 : 1,}}/></span>
+        </div>
       </div>
   );
 }

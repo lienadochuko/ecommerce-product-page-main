@@ -2,10 +2,12 @@ import React from "react";
 import '../App.css';
 
 const Price = () => {
-    return(
+    return (
         <div className="PriceWrapper">
-            <span className="amount">$125.00</span>
-            <span className="offPrice">50%</span>
+            <div className="priceContainer">
+                <span className="amount">$125.00</span>
+                <span className="offPrice">50%</span>
+            </div>
             <span className="originalPrice">$250.00</span>
         </div>
     )
