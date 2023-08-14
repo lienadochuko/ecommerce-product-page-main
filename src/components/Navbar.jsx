@@ -24,7 +24,7 @@ const Navbar = () => {
   var total = ProductButton * 125.00;
   const toggle = () => {
     setClose(!isclose);
-    console.log(isclose);
+    // console.log(isclose);
   }
 
   const handleButton = () => {
@@ -57,7 +57,7 @@ const Navbar = () => {
   const Subtract = () => {
     if (ProductTotal >= 0) {
       setProductTotal(ProductTotal - 1);
-      console.log(ProductTotal);
+      // console.log(ProductTotal);
     } else {
       setdisableSub(true);
     }
